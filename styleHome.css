@@ -1,0 +1,91 @@
+/*home */
+	#Name_home{
+		font-size: 3rem;
+		font-family: sans-serif;
+		font-weight: 100px;
+		color: hsl(0deg 0% 11%);
+		background-color: snow;
+	}
+	#home_div{
+		margin-top: 10vw;
+	}
+
+	#strike_via_line{
+		margin-top: -3vw;
+		width: 10rem;
+		height: 1vw;
+		border-bottom: 0.3vw solid grey;
+		transition: width 2.5s ease-in-out;
+		border-radius: 5%;
+	}
+
+	#profile_img{
+		margin-top: 3vw;
+		height: 20vw;
+		width: 20vw;
+		border-radius: 50%;
+	}
+	#about_me_home{
+		font-size: 1.2rem;
+		font-family: sans-serif;
+		color: darkslategray;
+		margin-top: 0.5vw;
+		display: inline-block;
+	}
+	.quoteabout_home{
+		font-size: 1.2rem;
+		font-family: serif;
+		color: darkslategray;
+		margin-top: 0.5vw;
+		display: inline-block;
+	}
+	
+	
+	/* home_hamburger_button_div */
+
+		#home_hamburger_button{
+			position: block;
+			margin-top: 5vh;
+			height: 2.5vw;
+			width: 3vw;
+		}
+		.home_hamburger_button_div{
+			display: block;
+			background-color: black;
+			margin: 0.2vh 0vw 0.4vh 0vw;
+			height: 0.45vw;
+			width: 100%;
+			transition: width 1s linear;
+			border-radius: 1.99rem;
+
+		}
+
+		#home_hamburger_menu{
+			position: absolute;
+			top:3.3rem ;
+			height:90vh ;
+			background-color: darkslategray;
+			background-image: url(Darkslate_texture.jpg);
+			background-repeat: repeat;
+			background-size: cover;
+			width: 10vw;
+			border-right: 1px solid skyblue;
+		}
+
+		#home_bottom_leftGear{
+			position: relative;
+			top: 30vw;
+			height: 4vw;
+			transition: all 0.5s linear;
+		}
+		#home_bottom_leftGear:hover{
+			transform: rotate(90deg);
+		}
+		/*right tab*/
+			#right_Sidebar_home{
+				position: absolute;
+				height: 95vh;
+				width: 18vw;
+				right: 0px;
+				top: 0px;
+			}

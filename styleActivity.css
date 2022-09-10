@@ -1,0 +1,444 @@
+
+/* activity */
+	#activity_div{
+		display: none;
+	}
+	#activity_todayBlog{
+		position: fixed;
+		top: 10vh;
+		left: 2vw;
+		background-color: #ffffff;
+		height: 40vw;
+		width: 18vw;
+		border: 0.15vw solid #e0dfdc;
+		overflow: hidden;
+		border-radius: 1.99rem;
+		display: inline-block;
+		background-image: url(bluesky_textile_background.jpg);
+	}
+	#activity_right_divbar{
+		position: fixed;
+		top: 10vh;
+		right: 2vw;
+		background-color: #ffffff;
+		margin-left: 2vw;
+		height: 40vw;
+		width: 6vw;
+		border: 0.15vw solid #e0dfdc;
+		overflow: hidden;
+		border-radius: 1.99rem;
+		display: inline-block;
+		background-image: url(bluesky_textile_background.jpg);
+	}
+	#meltingdakslategrey{
+		width: 100%;
+		height: 10vw;
+		opacity: 0.9;
+	}
+
+	#activity_right_divbar center :nth-child(1){
+		background-image: url(LinkedIn_icon_circle.png);
+		background-size: contain;
+		display: block;
+		width: 3.8vw;
+		height: 3.8vw;
+		border: 2px solid white;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-top: 0vw;
+	}
+	#activity_right_divbar center :nth-child(2){
+		background-image: url(github_icon.png);
+		background-size: contain;
+		display: block;
+		width: 3.8vw;
+		height: 3.8vw;
+		border: 2px solid white;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-top: 2vw;
+
+	}
+	
+	#activity_right_divbar center :nth-child(3){
+		background-image: url(email_icon.png);
+		background-size: contain;
+		display: block;
+		width: 3.8vw;
+		height: 3.8vw;
+		border: 2px solid white;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-top: 2vw;
+
+	}
+	#activity_right_divbar center :nth-child(4){
+		background-image: url(copy_link_icon.png);
+		background-size: contain;
+		display: block;
+		width: 3.8vw;
+		height: 3.8vw;
+		border: 2px solid white;
+		border-radius: 50%;
+		overflow: hidden;
+		margin-top: 2vw;
+
+	}
+	#activity_right_more_button{
+		position: relative;
+		background-color: transparent;
+		border: none;
+		font-size: 2vw;
+		color: white;
+		margin-top: 2vw;
+
+	}
+		#blog_Quote{
+			text-align: justify;
+			margin: 2.5vw;
+			margin-top: 3vw;
+			font-size: 1.4vw;
+			font-family: serif;
+			color: white;
+			padding-bottom: 0.5vw;
+			border-bottom: 0.7vw solid white;
+		}
+		#blog_Quote_Author{
+			margin-top: 1.5vw;
+			float: right;
+			font-size: 1.8vw;
+			font-family: serif;
+			color: white;
+		}
+		@keyframes Gearrotationclock{
+			to{
+				transform: rotate(1turn);
+			}
+		}
+		@keyframes Gearrotationanticlock{
+			to{
+				transform: rotate(-1turn);
+			}
+		}
+		#gearimgIMG2{
+			position: relative;
+			top: 0vw;
+			left: 3vw;
+			height: 5vw;
+			width: 5vw;
+			animation: Gearrotationclock 60s linear infinite;
+		}
+		#gearimgIMG3{
+			transform: rotate(15deg);
+			position: relative;
+			top: 2vw;
+			left: 2.05vw;
+			height: 8vw;
+			width: 8vw;
+			animation: Gearrotationanticlock 70s linear infinite;
+				
+		}
+		#activity_blog_moreButton{
+			position: absolute;
+			bottom: 1vw;
+			right: 1.5vw;
+			background-color: transparent;
+			border: none;
+			font-size: 2vw;
+			color: white;
+		}
+	#activity_plane{
+		position: absolute;
+		display: block;
+		top: 12vh;
+		left: 27vw;
+
+
+		
+	}
+	#ACTIrightTabscrolling_DIV{
+		background-color: #ffffff;
+		min-height: 20vw;
+		width: 56vw;
+		border: 0.15vw solid #e0dfdc;
+		/*border-top: 1vw solid #555658;*/
+		overflow: hidden;
+		border-radius: 1.99rem;
+		
+	}
+
+		#profile_backPaper{
+			height: 15vw;
+			width: 100%;
+		}
+		#profilepicACTIVITY_div{
+			position: relative;
+			float: right;
+			margin-top: -10vw;
+			margin-right: 2vw;
+		}
+		#profile_pic_activity{
+			height: 15vw;
+			width: 15vw;
+			border-radius: 50%;
+			border: 0.5vw solid white;
+		}
+
+		#activity_content{
+			float: left;
+			font-size: 2.5vw;
+			font-family: sans-serif;
+			margin: 1vw 0vw 0vw 2vw;
+		}
+		#activity_intro{
+			width: 100%;
+			margin-top: 4.5vw;
+			text-align: left;
+			padding-left: 2vw;
+			font-family: sans-serif;
+			color: darkslategray;
+		}
+		#custom_message_activity{
+			margin-top: 1vw;
+			text-align: left;
+			width: 100%;
+			min-height: 5vw;
+			font-size: 1rem;
+			padding-left: 2vw;
+			color: darkslategrey;
+
+		}
+		.acti_social_links{
+			font-family: sans-serif;
+			color: blue;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+	#activity_Posts_sortBydiv{
+		text-align: left;
+		background-color: #ffffff;
+		margin-top: 2vh;
+		height: 10vw;
+		width: 56vw;
+		border: 0.15vw solid #e0dfdc;
+		overflow: hidden;
+		border-radius: 1.99rem;
+
+	}
+
+	#activity_Posts_sortBy_header{
+		float: left;
+		font-size: 2vw;
+		font-family: sans-serif;
+		font-weight: 500;
+		margin: 1vw 0vw 0vw 2vw;
+		color: black;
+	}
+	#sortby_button_div{
+		position: relative;
+		top: 0vw;
+		left: -13vw;
+	}
+	.sortby_button{
+		display: inline-block;
+		margin-top: 5vw;
+		margin-left: 3vw;
+		height: 2.5vw;
+		border: 0px solid ghostwhite;
+		border-radius: 1.99rem;
+		color: black;
+		border: 1px solid black;
+		font-size: 1.2vw;
+		padding: 0.5vw 1vw 0.5vw 1vw;
+	}
+	#sortbyALLacti_Activity{
+		border: 0px;
+		background-color: rgb(5, 118, 66);
+		color: white;
+	}
+	#sortbyArticles_Activity{
+	}
+	#sortbyPosts_Activity{
+	}
+	#sortbyDocuments_Activity{
+	}
+	.activity_Posts{
+		background-color: #ffffff;
+		margin-top: 2vh;
+		min-height: 20vw;
+		width: 56vw;
+		border: 0.15vw solid #e0dfdc;
+		overflow: hidden;
+		border-radius: 1.99rem;
+	}
+	.top_activitypostDIV{
+		background-color: snow;
+		text-align: left;
+		height: 6vw;
+		width: 56vw;
+		border-bottom: 0.5vw solid rgb(5, 118, 66);
+	}
+	#posts_profilePIC{
+		margin: 1vw;
+		height: 4.5vw;
+		width: 4.5vw;
+		border-radius: 50%;
+	}
+	#Activity_post_location{
+		position: relative;
+		top: -4vw;
+		left: 1vw;
+		height: 1vw;
+		width: 10vw;
+		color: darkslategray;
+		font-family: sans-serif;
+		font-weight: bold;
+	}
+	.timepast_post{
+		position: relative;
+		top: -4vw;
+		left: 9.4vw;
+		font-family: sans-serif;
+		height: 1vw;
+		font-weight: bold;
+		color: darkslategray;
+	}
+
+	.activity_post_content{
+		width: 50vw;
+		text-align: left;
+		font-size: 1.2rem;
+		padding-bottom: 2vw;
+	}
+	.acti_posts_img_attachment{
+		background-color: black;
+		height: 35vw;
+		width: 50vw;
+		border: 1.5vw solid black;
+		margin-bottom: 2vw;
+	}
+
+
+/* Bio ELEMENT */
+	#bio_div{
+		background-image: url(bio_background.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		height: 95vh;
+		width: 100%;
+	}
+	#bio_panel{
+		position: absolute;
+		top: 17vh;
+		left: 20vw;
+		height: 35vw;
+		width: 70vw;
+		background-color: #f3f2ef;
+		border: 2px solid black;
+		box-shadow: 0px 0px 10px black;
+	}
+	#bio_name_header{
+		margin-top: 5px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding-bottom: 3px;
+		display: block;
+		font-size: 1.3rem;
+		color: black;
+		font-family: serif,'Times New Roman';
+		font-weight: 600;
+		border-bottom: 1px solid grey;
+	}
+	#bio_job_des_header{
+		display: inline-block;
+		margin-left: 5vw;
+		margin-top: 5vh;
+		font-size: 2.5rem;
+		font-family: serif,'Georgia';
+	}
+	#bio_job_des_extralabel{
+		margin-top: 0.5vw;
+		font-size: 1rem;
+		color: firebrick;
+	}
+	#bio_letsWork_DIV{
+		float: right;
+		display: inline-block;
+		margin-left: 7vw;
+		margin-top: 12vh;
+		font-family: serif,'Georgia';
+		border-left: 0.2vw solid orange;
+		padding-left: 1.3vw;
+	}
+	#bioabout{
+		margin-top: 2vw;
+		display: inline-block;
+		width: 20vw;
+		font-size: 0.9rem;
+		color: darkslategray;
+		font-family: monospace;
+		text-align: justify;
+	}
+	#findme_bio{
+		font-size: 1.8rem;
+
+	}
+	#bio_contact_mebio_butt{
+		font-size: 1.2rem;
+		height: 2rem;
+		width: 8rem;
+		background-color: darkslategray;
+		color: white;
+		border: 2px solid white;
+		cursor: pointer;
+	}
+	#bio_contact_mebio_butt:hover{
+		border: 2px solid darkslategray;
+		box-shadow: 0px 0px 10px hotpink;
+		color: cyan;
+		background-color: darkslategray;
+	}
+	
+	#bio_letsWork_header{
+		font-size: 1.8rem;
+	}
+	#bio_letsWork_DIV p{
+		font-size: 1rem;
+		color: darkslategray;
+		text-align: justify;
+		cursor: pointer;		
+	}
+	#_links_bio{
+		display: inline-block;
+		margin-top: 0.2vw;
+		margin-left: 0px;
+		font-size: 1rem;
+		color: darkslategray;
+		text-align: justify;
+		font-weight: bold;
+		transition: color 0.3s linear;
+	}
+	#_links_bio:hover{
+		color: blue;
+	}
+	#bio_img_div{
+		margin-top: 3vw;
+		float: right;
+		margin-right: 2vw;
+		height: 70%;
+		width: 17vw;
+		background-image: url(profilepic2.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+
+	}
+	#coding_img_label{
+		height: 8vw;
+		width: 8vw;
+		background-color: ;
+		margin-top: -4vw;
+		margin-left: -4vw;
+		transform: rotate(30deg);
+	}

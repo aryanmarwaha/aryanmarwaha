@@ -1,0 +1,15 @@
+/* Bio ELEMENT */
+	#bio_div{
+		display: none;
+	}
+	#stillworkingDIV{
+		width: 42vw;
+		height: 22vw;
+		margin-top: 20vh;
+		border: 0.15vw solid #e0dfdc;
+		border-radius: 1.99rem;
+		background-image: linear-gradient(to bottom, #12C2E9, #F64F59);
+		padding: 4vw;
+		font-size: 2rem;
+		color: white;
+	}
