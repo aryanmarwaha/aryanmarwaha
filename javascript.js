@@ -14,6 +14,36 @@ function create_strike_fromstart(){
 	};
 	setTimeout(create_strike_now(),2000);
 }
+var menu_status_mobileView=0;
+var NAV_menu_mobile_view= document.getElementById('menu_mobile_view');
+NAV_menu_mobile_view.style.display='none';
+
+function toggle_menu_ViewHide_mobView(){
+	if (menu_status_mobileView){
+		NAV_menu_mobile_view.style.display='none';
+		menu_status_mobileView=0;
+		document.getElementById('HomeHamburg1stline').style.transform="rotate(0deg)";
+		document.getElementById('HomeHamburg2stline').style.display='block';
+		document.getElementById('HomeHamburg3stline').style.transform="rotate(0deg)";
+	}
+	else{
+		document.getElementById('HomeHamburg1stline').style.transform="rotate(45deg)";
+		document.getElementById('HomeHamburg2stline').style.display='none';
+		document.getElementById('HomeHamburg3stline').style.transform="rotate(-45deg)";
+
+		NAV_menu_mobile_view.style.display='block';
+		menu_status_mobileView=1;
+	}
+}
+document.getElementById('home_hamburger_button_mobile_view').addEventListener("click",toggle_menu_ViewHide_mobView);
+
+document.getElementById('gohome_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+document.getElementById('goactivity_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+document.getElementById('gobio_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+document.getElementById('goskills_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+document.getElementById('goprojects_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+document.getElementById('gopublications_via_mobV').addEventListener('click',toggle_menu_ViewHide_mobView);
+
 
 // adding/removing elements :
 	
@@ -66,19 +96,6 @@ function create_strike_fromstart(){
 			create_strike_fromstart();
 		};
 
-		// // hamburger button:
-		// 	const homehamburgdiv= document.getElementById('home_hamburger_button');
-		// 	var homehamburgdiv_status="open";
-		// 	// homehamburgdiv.addEventListener('click',function() {
-		// 	// 	if(homehamburgdiv_status=="open"){
-		// 	// 		const homehamburgline1= document.getElementById('HomeHamburg1stline');
-		// 	// 		const homehamburgline2= document.getElementById('HomeHamburg2stline');
-		// 	// 		const homehamburgline3= document.getElementById('HomeHamburg3stline');
-		// 	// 	}
-		// 	// 	else{
-
-		// 	// 	}
-		// 	// })
 
 	// Activity ELEMENT :
 		
@@ -265,7 +282,7 @@ function create_strike_fromstart(){
 
 // menu shift:
 
-	document.getElementById('gohome').addEventListener("click",function() {
+	function openHome(){
 		removeactivityEle();
 		removebioEle();
 		removeskillsEle();
@@ -273,23 +290,17 @@ function create_strike_fromstart(){
 		removepublicationsEle();		
 		
 		addhomeEle();
-
-	});
-
-
-	document.getElementById('goactivity').addEventListener("click",function() {
+	};
+	function openActivity(){
 		removehomeEle();
 		removebioEle();
 		removeskillsEle();
 		removeprojectsEle();
 		removepublicationsEle();		
 		
-		addactivityEle();		
-
-	});
-
-
-	document.getElementById('gobio').addEventListener("click",function() {
+		addactivityEle();
+	};
+	function openBio(){
 		removehomeEle();
 		removeactivityEle();
 		removeskillsEle();
@@ -297,11 +308,8 @@ function create_strike_fromstart(){
 		removepublicationsEle();		
 		
 		addbioEle();
-
-	});
-
-
-	document.getElementById('goskills').addEventListener("click",function() {
+	};
+	function openSkills(){
 		removehomeEle();
 		removeactivityEle();
 		removebioEle();
@@ -309,11 +317,8 @@ function create_strike_fromstart(){
 		removepublicationsEle();		
 		
 		addskillsEle();
-
-	});
-
-
-	document.getElementById('goprojects').addEventListener("click",function() {
+	};
+	function openProjects(){
 		removehomeEle();
 		removeactivityEle();
 		removebioEle();
@@ -321,11 +326,8 @@ function create_strike_fromstart(){
 		removepublicationsEle();		
 		
 		addprojectsEle();
-		
-	});
-
-
-	document.getElementById('gopublications').addEventListener("click",function() {
+	};
+	function openPublications(){
 		removehomeEle();
 		removeactivityEle();
 		removebioEle();
@@ -333,9 +335,31 @@ function create_strike_fromstart(){
 		removeprojectsEle();
 		
 		addpublicationsEle();
+	};
 
-		
-	});
+	document.getElementById('gohome').addEventListener("click",openHome);
+	document.getElementById('gohome_via_mobV').addEventListener("click",openHome);
+
+
+
+	document.getElementById('goactivity').addEventListener("click",openActivity);
+	document.getElementById('goactivity_via_mobV').addEventListener("click",openActivity);
+
+
+	document.getElementById('gobio').addEventListener("click",openBio);
+	document.getElementById('gobio_via_mobV').addEventListener("click",openBio);
+
+
+	document.getElementById('goskills').addEventListener("click",openSkills);
+	document.getElementById('goskills_via_mobV').addEventListener("click",openSkills);
+
+
+	document.getElementById('goprojects').addEventListener("click",openProjects);
+	document.getElementById('goprojects_via_mobV').addEventListener("click",openProjects);
+
+
+	document.getElementById('gopublications').addEventListener("click",openPublications);
+	document.getElementById('gopublications_via_mobV').addEventListener("click",openPublications);
 
 // 
 // Ref. links :

@@ -9,11 +9,10 @@
 	#home_div{
 		margin-top: 10vw;
 	}
-
 	#strike_via_line{
 		margin-top: -3vw;
 		width: 10rem;
-		height: 1vw;
+		height: 1vw; 
 		border-bottom: 0.3vw solid grey;
 		transition: width 2.5s ease-in-out;
 		border-radius: 5%;
@@ -55,9 +54,7 @@
 			margin: 0.2vh 0vw 0.4vh 0vw;
 			height: 0.45vw;
 			width: 100%;
-			transition: width 1s linear;
 			border-radius: 1.99rem;
-
 		}
 
 		#home_hamburger_menu{
@@ -89,3 +86,103 @@
 				right: 0px;
 				top: 0px;
 			}
+
+/* keyframe :mobile view */
+	@media only screen and (min-width: 731px){
+
+	}
+	@media only screen and (max-width: 730px){
+
+		/* HOME -ELEMENT */
+		#home_div{
+			overflow: hidden;
+		}
+		#top_bar{
+			border-bottom: 2vh solid grey;
+		}
+		#top_bar ul{
+			display: none;
+		}
+		#mobView_footer{
+			position: fixed;
+			bottom: 0vh;
+			width: 100%;
+			height: 2vh;
+			background-color: grey;
+			z-index: 50;
+
+		}
+		#menu_mobile_view{
+			top: 0px;
+			left: 0px;
+			height: 100%;
+			width: 100%;
+			position: fixed;
+			background-color: black;
+			opacity: 0.9;
+			z-index: 50;
+
+		}
+		#nav_buttons_DIV_mobile_view{
+			width: 90%;
+			margin-top: 20vh;
+			text-align: left;
+			border: 2px solid white;
+		}
+		.menu_nav_buttons_mobile_view{
+			margin: 1vh;
+			height: 6.5vh;
+			padding: 1.5vh;
+			font-size: 1.5rem;
+			color: black;
+			font-weight: bold;
+			background-color: #F2AA4CFF;
+			border: 2px solid white;
+		}
+		#body{
+			background-image: none;
+		}
+		#home_hamburger_menu{
+			display: none;
+		}
+		#Name_home{
+			display: inline-block;
+			margin-top: 15vh;
+		}
+		#about_me_home{
+			border-top: 0.9vh solid orange;
+			padding-top: 1vh;
+		}
+		#profile_img{
+			margin-top: 3vh;
+			height: 25vh;
+			width: 25vh;
+		}
+		#home_my_quote_upper_orange_brDIV{
+			height: 0px;
+			width: 25vh;
+			margin-top: 2vh;
+			border-top: 0.9vh solid grey;
+			margin-bottom: 2vh;
+		}
+		#home_hamburger_button{
+
+		}
+		#home_hamburger_button_mobile_view{
+			position: absolute;
+			top: 10vh;
+			right: 5vh;
+			height: 5vh;
+			width: 5vh;
+		}
+		.home_hamburger_button_div{
+			display: block;
+			background-color: grey;
+			margin: 0.2vh 0vw 0.4vh 0vw;
+			height: 0.6vh;
+			width: 100%;
+			transition: width 1s linear;
+			border-radius: 1.99rem;
+		}
+
+	}

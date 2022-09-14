@@ -1,35 +1,27 @@
+#skills_div{
+	padding-top: 0px;
+}
 #skills_panel{
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10vh;
 	width: 75vw;
 	height: auto;
 	background-color: white;
-	border: 1px solid black;
-	background-color: black;
+	border: 1px solid grey;
+	border-radius: 1.99rem;
+	background-color: snow;
 	padding-bottom: 10vh;
+	padding-top: 0px;
 }
 
-#background_image_top{
-	width: 100%;
-	height: 30vw;
-	background-size: contain;
-	background-image: url(skills_background.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-blend-mode: color-burn;
-}
+
 #skills_label_header{
-	position: sticky;
-	top: 7.2vh;
 	color: white;
 	font-family: monospace,'monaco';
 	font-size: 2.5rem;
-	padding-top: 2vw;
-	background-color: black;
+	background-color: snow;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
-	z-index: 5;
 	animation: colorchange_text 5s linear infinite;
 }
 @keyframes colorchange_text{
@@ -94,7 +86,7 @@
 	border-bottom: 2px solid white;
 }
 #skills_intro_div{
-	margin-top: 10vw;
+	margin-top: 0vw;
 	margin-left: auto;
 	margin-right: auto;
 	min-height: 30vw;
@@ -126,7 +118,7 @@
 }
 .skills_disabled-buttons{
 	padding: 0.5vw;
-	font-size: 1rem;
+	font-size: 1vw;
 	border: 1px solid white;
 	margin: 0.15vw;
 	color: white;
@@ -141,13 +133,13 @@
 #skills_about{
 	margin-top: 2vw;
 	width: 33vw;
-	font-size: 1rem;
+	font-size: 1vw;
 	font-family: sans-serif;
 	color: lightcyan;
 	text-align: justify;
 }
 #skills_contactme{
-	margin-top: 6vw;
+	margin-top: 3vw;
 	margin-left: auto;
 	margin-right: auto;
 	height: 8vw;
@@ -161,7 +153,7 @@
 	font-size: 1.5vw;
 }
 #skills_contactme center :nth-child(2){
-	margin-top: 1vh;
+	margin-top: 1vw;
 	background-color: grey;
 	height: 0.3vw;
 	width: 2vw;
@@ -176,6 +168,7 @@
 	background-repeat: no-repeat;
 	display: inline-block;
 	margin: 1vw;
+	margin-top: -1vw;
 }
 .skills_links_DIV:hover{
 	box-shadow: 0px 0px 10px cyan;
@@ -206,3 +199,12 @@
 	border: 1px solid white;
 	background-image: url(Darkslate_texture.jpg);
 }*/
+
+/* keyframe :mobile view */
+	@media only screen and (min-width: 731px){
+		#skills_panel{
+		}
+	}
+	@media only screen and (max-width: 730px){
+
+	}

@@ -1,5 +1,6 @@
 /* Bio ELEMENT */
 	#bio_div{
+		transition: all 3s ease-in-out;
 		display: none;
 	}
 	#stillworkingDIV{
@@ -13,3 +14,532 @@
 		font-size: 2rem;
 		color: white;
 	}
+
+
+	/* Bio ELEMENT */
+	#bio_div{
+		background-image: url(bio_background.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom left;
+		height: 95vh;
+		width: 100%;
+		background-attachment: fixed;
+	}
+	#bio_panel{
+		position: absolute;
+		top: 17vh;
+		left: 10vw;
+		height: 35vw;
+		width: 80vw;
+		background-color: #f3f2ef;
+		border: 2px solid black;
+		box-shadow: 0px 0px 10px black;
+		opacity: 0.9;
+	}
+	#bio_name_header{
+		margin-top: 5px;
+		margin-left: 8px;
+		margin-right: 8px;
+		padding-bottom: 3px;
+		display: block;
+		font-size: 1.3rem;
+		color: black;
+		font-family: serif,'Times New Roman';
+		font-weight: 600;
+		border-bottom: 1px solid grey;
+	}
+	#bio_job_des_header{
+		display: inline-block;
+		margin-left: 5vw;
+		margin-top: 5vh;
+		font-size: 2.5rem;
+		font-family: serif,'Georgia';
+	}
+	#bio_job_des_extralabel{
+		margin-top: 0.5vw;
+		font-size: 1rem;
+		color: firebrick;
+	}
+	#bio_letsWork_DIV{
+		float: right;
+		display: inline-block;
+		margin-left: 7vw;
+		margin-top: 12vh;
+		font-family: serif,'Georgia';
+		border-left: 0.2vw solid orange;
+		padding-left: 1.3vw;
+	}
+	#bioabout{
+		margin-top: 2vw;
+		display: inline-block;
+		width: 20vw;
+		font-size: 0.9rem;
+		color: darkslategray;
+		font-family: monospace;
+		text-align: justify;
+	}
+	#findme_bio{
+		font-size: 1.8rem;
+
+	}
+	#bio_contact_mebio_butt{
+		font-size: 1.2rem;
+		height: 2rem;
+		width: 8rem;
+		background-color: darkslategray;
+		color: white;
+		border: 2px solid white;
+		cursor: pointer;
+	}
+	#bio_contact_mebio_butt:hover{
+		border: 2px solid darkslategray;
+		box-shadow: 0px 0px 10px hotpink;
+		color: cyan;
+		background-color: darkslategray;
+	}
+	
+	#bio_letsWork_header{
+		font-size: 1.8rem;
+	}
+	#bio_letsWork_DIV p{
+		font-size: 1rem;
+		color: darkslategray;
+		text-align: justify;
+		cursor: pointer;		
+	}
+	#_links_bio{
+		display: inline-block;
+		margin-top: 0.2vw;
+		margin-left: 0px;
+		font-size: 1rem;
+		color: darkslategray;
+		text-align: justify;
+		font-weight: bold;
+		transition: color 0.3s linear;
+	}
+	#_links_bio:hover{
+		color: blue;
+	}
+	#bio_img_div{
+		margin-top: 3vw;
+		float: right;
+		margin-right: 2vw;
+		height: 70%;
+		width: 17vw;
+		background-image: url(profilepic2.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+
+	}
+	#coding_img_label{
+		height: 8vw;
+		width: 8vw;
+		background-color: ;
+		margin-top: -4vw;
+		margin-left: -4vw;
+		transform: rotate(30deg);
+	}
+	#bio_letsWork_DIV2{
+		display: none;
+	}
+
+
+/* keyframe :mobile view */
+	
+	@media only screen and (max-width: 768px){
+		#bio_panel{
+			position: absolute;
+			top: 17vh;
+			left: 5vw;
+			height: 40rem;
+			width: 90vw;
+			background-color: #f3f2ef;
+			border: 2px solid black;
+			box-shadow: 0px 0px 10px black;
+			opacity: 0.9;
+		}
+		#bio_name_header{
+			margin-top: 5px;
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-bottom: 3px;
+			display: block;
+			font-size: 1.5rem;
+			color: black;
+			font-family: serif,'Times New Roman';
+			font-weight: 600;
+			border-bottom: 1px solid grey;
+		}
+
+		#bio_job_des_header{
+			width: 50vw;
+			margin-left: 5vw;
+			margin-top: 5vh;
+			font-size: 1.7rem;
+			color: blueviolet;
+			font-weight: bold;
+			font-family: serif,'Georgia';
+		}
+		#bio_job_des_extralabel{
+			width: 30vw;
+			margin-top: 1vw;
+			font-size: 1rem;
+			color: firebrick;
+		}
+		#bioabout{
+			width: 70vw;
+		}
+		#bio_img_div{
+			position: absolute;
+			top: 3rem;
+			right: 1vw;
+			width: 23vw;
+		}
+		#bio_letsWork_DIV{
+			display: none;
+		}
+	}
+	@media only screen and (min-width: 768px) and (max-width: 990px){
+		#bio_div{
+			background-color: black;
+		}
+		#bio_panel{
+		position: absolute;
+		top: 17vh;
+		left: 5vw;
+		height: 35rem;
+		width: 90vw;
+		background-color: #f3f2ef;
+		border: 2px solid black;
+		box-shadow: 0px 0px 10px black;
+		opacity: 0.9;
+		}
+		#bio_name_header{
+			margin-top: 5px;
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-bottom: 3px;
+			display: block;
+			font-size: 1.3rem;
+			color: black;
+			font-family: serif,'Times New Roman';
+			font-weight: 600;
+			border-bottom: 1px solid grey;
+		}
+		#bio_job_des_header{
+			display: inline-block;
+			margin-left: 5vw;
+			margin-top: 5vh;
+			font-size: 2.5rem;
+			font-family: serif,'Georgia';
+		}
+		#bio_job_des_extralabel{
+			margin-top: 0.5vw;
+			font-size: 1.2rem;
+			color: firebrick;
+		}
+		#bio_letsWork_DIV{
+			float: left;
+			margin-left: 0vw;
+			margin-top: 6vh;
+			display: inline-block;
+			font-family: serif,'Georgia';
+			border-left: 0.2vw solid orange;
+			padding-left: 1.3vw;
+		}
+		#bio_letsWork_header{
+			font-size: 1.8rem;
+		}
+		#bio_letsWork_DIV p{
+			font-size: 1rem;
+			color: darkslategray;
+			text-align: justify;
+			cursor: pointer;		
+		}
+		#_links_bio{
+			display: inline-block;
+			margin-top: 0.2vw;
+			margin-left: 0px;
+			font-size: 1rem;
+			color: darkslategray;
+			text-align: justify;
+			font-weight: bold;
+			transition: color 0.3s linear;
+		}
+		#_links_bio:hover{
+			color: blue;
+		}
+		#bio_img_div{
+			margin-top: 3vw;
+			float: right;
+			margin-right: 2vw;
+			height: 70%;
+			width: 17vw;
+			background-image: url(profilepic2.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+
+		}
+		#bioabout{
+			position: absolute;
+			right: 8vw;
+			top: 33.5vw;
+			width: 30vw;
+			border-left: 0.4vw solid blueviolet;
+			padding-left: 1.3vw;
+		}
+		#findme_bio{
+			font-size: 1.8rem;
+			position: absolute;
+			bottom: 7rem;
+			left: 6vw;
+
+		}
+		#bio_contact_mebio_butt{
+			position: absolute;
+			bottom: 4rem;
+			left: 6vw;
+			font-size: 1.2rem;
+			height: 2rem;
+			width: 8rem;
+			background-color: darkslategray;
+			color: white;
+			border: 2px solid white;
+			cursor: pointer;
+		}
+		#bio_contact_mebio_butt:hover{
+			border: 2px solid darkslategray;
+			box-shadow: 0px 0px 10px hotpink;
+			color: cyan;
+			background-color: darkslategray;
+		}
+		
+		#coding_img_label{
+			height: 8vw;
+			width: 8vw;
+			background-color: ;
+			margin-top: -4vw;
+			margin-left: -4vw;
+			transform: rotate(30deg);
+			display: none;
+		}
+		#bio_letsWork_DIV2{
+			display: none;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+	@media only screen and (min-width: 990px) and (max-width: 1430px){
+		#bio_div{
+			background-color: black;
+		}
+		#bio_panel{
+		position: absolute;
+		top: 17vh;
+		left: 5vw;
+		height: 35rem;
+		width: 90vw;
+		background-color: #f3f2ef;
+		border: 2px solid black;
+		box-shadow: 0px 0px 10px black;
+		opacity: 0.9;
+		}
+		#bio_name_header{
+			margin-top: 5px;
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-bottom: 3px;
+			display: block;
+			font-size: 1.3rem;
+			color: black;
+			font-family: serif,'Times New Roman';
+			font-weight: 600;
+			border-bottom: 1px solid grey;
+		}
+		#bio_job_des_header{
+			display: inline-block;
+			margin-left: 5vw;
+			margin-top: 5vh;
+			font-size: 2.5rem;
+			font-family: serif,'Georgia';
+		}
+		#bio_job_des_extralabel{
+			margin-top: 0.5vw;
+			font-size: 1.2rem;
+			color: firebrick;
+		}
+		#bio_letsWork_DIV{
+			float: left;
+			margin-left: 0vw;
+			margin-top: 6vh;
+			display: inline-block;
+			font-family: serif,'Georgia';
+			border-left: 0.2vw solid orange;
+			padding-left: 1.3vw;
+		}
+		#bio_letsWork_header{
+			font-size: 1.8rem;
+		}
+		#bio_letsWork_DIV p{
+			font-size: 1rem;
+			color: darkslategray;
+			text-align: justify;
+			cursor: pointer;		
+		}
+		#_links_bio{
+			display: inline-block;
+			margin-top: 0.2vw;
+			margin-left: 0px;
+			font-size: 1rem;
+			color: darkslategray;
+			text-align: justify;
+			font-weight: bold;
+			transition: color 0.3s linear;
+		}
+		#_links_bio:hover{
+			color: blue;
+		}
+		#bio_img_div{
+			margin-top: 3vw;
+			float: right;
+			margin-right: 2vw;
+			height: 70%;
+			width: 17vw;
+			background-image: url(profilepic2.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+
+		}
+		#bioabout{
+			position: absolute;
+			left: 40vw;
+			top: 20vw;
+			width: 24vw;
+			border-left: 0.4vw solid blueviolet;
+			padding-left: 1.3vw;
+		}
+		#findme_bio{
+			font-size: 1.8rem;
+			position: absolute;
+			bottom: 7rem;
+			left: 6vw;
+
+		}
+		#bio_contact_mebio_butt{
+			position: absolute;
+			bottom: 4rem;
+			left: 6vw;
+			font-size: 1.2rem;
+			height: 2rem;
+			width: 8rem;
+			background-color: darkslategray;
+			color: white;
+			border: 2px solid white;
+			cursor: pointer;
+		}
+		#bio_contact_mebio_butt:hover{
+			border: 2px solid darkslategray;
+			box-shadow: 0px 0px 10px hotpink;
+			color: cyan;
+			background-color: darkslategray;
+		}
+		
+		#coding_img_label{
+			height: 8vw;
+			width: 8vw;
+			background-color: ;
+			margin-top: -4vw;
+			margin-left: -4vw;
+			transform: rotate(30deg);
+			display: none;
+		}
+		#bio_letsWork_DIV2{
+			display: none;
+		}
+	}
+	
