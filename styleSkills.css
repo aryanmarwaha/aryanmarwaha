@@ -2,16 +2,19 @@
 	padding-top: 0px;
 }
 #skills_panel{
+	margin-top: 3.33rem;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75vw;
 	height: auto;
 	background-color: white;
 	border: 1px solid grey;
-	border-radius: 1.99rem;
 	background-color: snow;
 	padding-bottom: 10vh;
 	padding-top: 0px;
+	background-image: linear-gradient(to right,black, darkslategray);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 
@@ -19,7 +22,6 @@
 	color: white;
 	font-family: monospace,'monaco';
 	font-size: 2.5rem;
-	background-color: snow;
 	padding-top: 2vw;
 	padding-bottom: 2vw;
 	animation: colorchange_text 5s linear infinite;
@@ -138,41 +140,6 @@
 	color: lightcyan;
 	text-align: justify;
 }
-#skills_contactme{
-	margin-top: 3vw;
-	margin-left: auto;
-	margin-right: auto;
-	height: 8vw;
-	width: 90%;
-	background-image: url(Darkslate_texture.jpg);
-	background-size: cover;
-}
-#skills_contactme center :nth-child(1){
-	margin-top: 0.6vw;
-	color: white;
-	font-size: 1.5vw;
-}
-#skills_contactme center :nth-child(2){
-	margin-top: 1vw;
-	background-color: grey;
-	height: 0.3vw;
-	width: 2vw;
-}
-
-.skills_links_DIV {
-	height: 2.5vw;
-	width: 2.5vw;
-	border: 1px solid darkslategray;
-	border-radius: 50%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: inline-block;
-	margin: 1vw;
-	margin-top: -1vw;
-}
-.skills_links_DIV:hover{
-	box-shadow: 0px 0px 10px cyan;
-}
 
 
 
@@ -202,9 +169,74 @@
 
 /* keyframe :mobile view */
 	@media only screen and (min-width: 731px){
-		#skills_panel{
-		}
+
 	}
 	@media only screen and (max-width: 730px){
+		#skills_panel{
+			margin-top: 16vh;
+			height: 70vh;
+		}
+		#skills_intro_div{
+			margin-top: 0vw;
+			margin-left: auto;
+			margin-right: auto;
+			min-height: 30vw;
+			height: auto;
+			width: 90%;
+			background-image: url(Darkslate_texture.jpg);
+			background-size: cover;
+
+		}
+		#skills_intro_div_img{
+			display: inline-block;
+			border: 4px solid white;
+			border-radius: 1.99rem;
+			height: 25vw;
+			width: 16vw;
+			margin: 2vw;
+			background-image: url(profilepic3.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			position: absolute;
+			left: 18vw;
+
+		}
+		#skills_intro_div_right{
+			display: inline-block;
+			margin-top: 4.5vw;
+			margin-right: 2vw;
+			height: 20vw;
+			width: 42vw;
+			border-left: 3px solid orange;
+			padding-left: 2vw;
+			position: absolute;
+			left: 40vw;
+		
+		}
+		.skills_disabled-buttons{
+			padding: 0.5vw;
+			font-size: 1vw;
+			border: 1px solid white;
+			margin: 0.15vw;
+			color: white;
+			background-color: black;
+			transition: color 0.5s linear;
+			cursor: arrow;
+		
+		}
+		.skills_disabled-buttons:hover{
+			box-shadow: 0px 0px 5px cyan;
+			color: cyan;
+		
+		}
+		#skills_about{
+			margin-top: 2vw;
+			width: 33vw;
+			font-size: 1vw;
+			font-family: sans-serif;
+			color: lightcyan;
+			text-align: justify;
+		
+		}
 
 	}

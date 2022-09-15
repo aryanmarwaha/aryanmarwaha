@@ -147,7 +147,7 @@
 
 /* keyframe :mobile view */
 	
-	@media only screen and (max-width: 768px){
+	@media only screen and (max-width: 500px){
 		#bio_panel{
 			position: absolute;
 			top: 17vh;
@@ -189,6 +189,59 @@
 		}
 		#bioabout{
 			width: 70vw;
+		}
+		#bio_img_div{
+			position: absolute;
+			top: 3rem;
+			right: 1vw;
+			width: 23vw;
+		}
+		#bio_letsWork_DIV{
+			display: none;
+		}
+	}
+	@media only screen and (min-width: 500px) and (max-width: 768px){
+		#bio_panel{
+			position: absolute;
+			top: 17vh;
+			left: 5vw;
+			height: 40rem;
+			width: 90vw;
+			background-color: #f3f2ef;
+			border: 2px solid black;
+			box-shadow: 0px 0px 10px black;
+			opacity: 0.9;
+		}
+		#bio_name_header{
+			margin-top: 5px;
+			margin-left: 8px;
+			margin-right: 8px;
+			padding-bottom: 3px;
+			display: block;
+			font-size: 1.5rem;
+			color: black;
+			font-family: serif,'Times New Roman';
+			font-weight: 600;
+			border-bottom: 1px solid grey;
+		}
+
+		#bio_job_des_header{
+			width: 50vw;
+			margin-left: 5vw;
+			margin-top: 5vh;
+			font-size: 1.7rem;
+			color: blueviolet;
+			font-weight: bold;
+			font-family: serif,'Georgia';
+		}
+		#bio_job_des_extralabel{
+			width: 30vw;
+			margin-top: 1vw;
+			font-size: 1rem;
+			color: firebrick;
+		}
+		#bioabout{
+			width: 50vw;
 		}
 		#bio_img_div{
 			position: absolute;
