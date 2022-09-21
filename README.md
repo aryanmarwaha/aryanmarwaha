@@ -12,21 +12,23 @@
   This / Is / A /Feature"
 </h5>
 <a href="https://twitter.com/AryanMarwaha3">
-  <img src="https://user-images.githubusercontent.com/102375260/191470145-3606c89a-1880-48f6-a252-ced36f263d12.png" height="50" width="50">
+  <img src="https://user-images.githubusercontent.com/102375260/191470145-3606c89a-1880-48f6-a252-ced36f263d12.png" height="40" width="40">
 </a>
 &nbsp
 
 <a href="https://www.linkedin.com/in/aryan-marwaha-0029b5219">
-  <img src="https://user-images.githubusercontent.com/102375260/191470166-68746f0a-3ce4-47fa-9ca2-9e08a87fbca8.png" height="50" width="50">
+  <img src="https://user-images.githubusercontent.com/102375260/191470166-68746f0a-3ce4-47fa-9ca2-9e08a87fbca8.png" height="40" width="40">
 </a>
 &nbsp
 
 <a href="https://github.com/aryanmarwaha/">
-  <img src="https://user-images.githubusercontent.com/102375260/191470190-08cad4cf-a74d-4c54-9b12-e74468548294.png" height="50" width="50">
+  <img src="https://user-images.githubusercontent.com/102375260/191470190-08cad4cf-a74d-4c54-9b12-e74468548294.png" height="40" width="40">
 </a>
 &nbsp
 
-<img src="https://user-images.githubusercontent.com/102375260/191470201-5e2efa0d-bead-4e58-8e22-32a419d3455b.png" height="50" width="50">
+<a href="https://www.instagram.com/aryan_marwaha__/">
+  <img src="https://user-images.githubusercontent.com/102375260/191477706-7bbdb3d2-1b06-4418-8dcb-6bd6e6174a65.png" height="40" width="40">
+</a>
 &nbsp
 
 
