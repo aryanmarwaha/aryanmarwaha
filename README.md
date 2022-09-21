@@ -1,4 +1,11 @@
+<div align="left">
 
+</div>
+<div align="right">
+<br>
+<img src="https://komarev.com/ghpvc/?username=aryanmarwaha&label=Profile+Views+👁️👁️&style=for-the-badge&color=blueviolet" alt=""/>
+
+</div>
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/102375260/191350374-ce59b98d-556c-459b-8ac5-22c1fe18cef8.png" height="375" width="666">
@@ -29,11 +36,9 @@
 <a href="https://www.instagram.com/aryan_marwaha__/">
   <img src="https://user-images.githubusercontent.com/102375260/191477706-7bbdb3d2-1b06-4418-8dcb-6bd6e6174a65.png" height="40" width="40">
 </a>
-&nbsp
-
-
-
-
+</div>
+<h1></h1>
+<div>
 </div>
 <!--
 ### Hi there 👋
