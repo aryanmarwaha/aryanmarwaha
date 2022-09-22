@@ -1,6 +1,4 @@
-<div align="left">
 
-</div>
 <div align="right">
 <br>
 <img src="https://komarev.com/ghpvc/?username=aryanmarwaha&label=Profile+Views+👁️👁️&style=for-the-badge&color=blueviolet" alt=""/>
