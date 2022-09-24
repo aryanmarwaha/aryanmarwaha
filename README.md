@@ -83,12 +83,15 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
 </div>
 <br>
 <h3>
-  <u>Other Stats🧑‍💻:</u>
+  <u>Other GitHub Stats🧑‍💻:</u>
 </h3>
 <br>
+<div align="center">
+<img src="https://streak-stats.demolab.com/?user=aryanmarwaha&theme=redical" height="180">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryanmarwaha&layout=compact" height="180">
 <img src="https://github-readme-stats.vercel.app/api?username=aryanmarwaha&hide=contribs,prs">
-
-
+          
+</div>
 <!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
