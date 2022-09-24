@@ -6,7 +6,7 @@
 </div>
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/102375260/191350374-ce59b98d-556c-459b-8ac5-22c1fe18cef8.png" height="375" width="666">
+<img src="https://user-images.githubusercontent.com/102375260/191350374-ce59b98d-556c-459b-8ac5-22c1fe18cef8.png" width="666">
 <h1>
   Hello World 
 <img src="https://media.giphy.com/media/gM5qFksULw54NMWyry/giphy.gif" height="50">
