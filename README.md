@@ -82,6 +82,7 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
   
 </div>
 <br>
+<hr>
 <h3>
   <u>Other GitHub Stats🧑‍💻:</u>
 </h3>
