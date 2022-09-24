@@ -49,7 +49,7 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
   <u>Languages and Tools 🔧:</u>
 </h3>
 <br>
-<div align="center">
+<div align="justify">
   <img src="https://user-images.githubusercontent.com/102375260/192100835-977b2257-8652-421b-8ff7-2687b3fcc174.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104340-d84d4e7e-7da5-4653-8237-86583152ff6f.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104381-22e53115-221a-4e2a-a706-2a2948d1a92a.png" height="60" width="">
@@ -64,16 +64,26 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
   
   
   <img src="https://user-images.githubusercontent.com/102375260/192102650-2ad983e9-2584-4fd2-addd-b1118d25af8f.png" height="60" width="">
-  <img src="https://user-images.githubusercontent.com/102375260/192103478-c70fb523-b582-43d0-ba13-12acd223d342.png" height="60" width="">
   
   <img src="https://user-images.githubusercontent.com/102375260/192104633-845ac1da-d8de-4278-b6f2-0020c2824a81.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104659-ab5703e3-ff94-4bfa-9f1d-a4857bf0948a.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192105587-3824d533-ba5b-4afe-820f-bbdbcb8c05ad.png" height="60" width="">
+</div>
+<br>
+<h3>
+  <u>Experience with 🧑‍💻:</u>
+</h3>
+<br>
+<div align="justify">
+  <img src="https://user-images.githubusercontent.com/102375260/192111502-55896683-b562-48e4-a502-f1a7e886eeeb.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192111510-26b93eff-b2c6-4fd6-bbcb-77413564c1a1.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192111512-9a41692a-bb42-4698-bbf7-04a25053a0fd.png" height="60" width="">
   
+  
+</div>
 
-</div>
-<div>
-</div>
+
+
 
 <!--
 - 🔭 I’m currently working on ...
