@@ -41,6 +41,7 @@
 Hi there 👋<br>
 My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm pursuing B.E. in CSE at Chitkara University Punjab right now. I love coding and I'm a huge gadget nerd. 👨🏻‍💻👨🏻‍💻
 <br>
+#programming, #scienceandtechnology, and #scienceandenvironment
 </div>
 <br>
 <!--
