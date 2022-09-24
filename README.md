@@ -38,12 +38,43 @@
 </div>
 <h1></h1>
 <div id="header">
-Hi there 👋<br>
+  <h3>Hi there 👋</h3>
 My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm pursuing B.E. in CSE at Chitkara University Punjab right now. I love coding and I'm a huge gadget nerd. 👨🏻‍💻👨🏻‍💻
 <br>
-#programming, #scienceandtechnology, and #scienceandenvironment
+  <b>#programming, #scienceandtechnology, and #scienceandenvironment</b>
 </div>
 <br>
+
+
+<h4>
+  <u>Languages and Tools:</u>
+</h4>
+<br>
+<div>
+  <img src="https://user-images.githubusercontent.com/102375260/192100835-977b2257-8652-421b-8ff7-2687b3fcc174.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104340-d84d4e7e-7da5-4653-8237-86583152ff6f.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104381-22e53115-221a-4e2a-a706-2a2948d1a92a.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104408-538b0e8e-77b5-4c28-be94-cb11e4431f31.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104432-cb535805-6e59-44dd-9643-c8e67af509b4.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104466-cefed872-9c71-4844-b55d-514bc07b3ea4.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104480-7fb5b4b7-ac66-4e12-8032-0ef2305c2b61.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104513-a2b29fee-90be-4fb2-879a-9e283407f42f.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104543-aff56d14-290a-4805-a908-71efe94e2995.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104568-084783a2-777b-4028-9ae5-229d1001850c.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104592-cbcef5fb-8658-438a-a488-338ebcbe8484.png" height="60" width="">
+  
+  
+  <img src="https://user-images.githubusercontent.com/102375260/192102650-2ad983e9-2584-4fd2-addd-b1118d25af8f.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192103478-c70fb523-b582-43d0-ba13-12acd223d342.png" height="60" width="">
+  
+  <img src="https://user-images.githubusercontent.com/102375260/192104633-845ac1da-d8de-4278-b6f2-0020c2824a81.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192104659-ab5703e3-ff94-4bfa-9f1d-a4857bf0948a.png" height="60" width="">
+  
+
+</div>
+<div>
+</div>
+
 <!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
