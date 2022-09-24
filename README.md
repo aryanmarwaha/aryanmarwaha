@@ -45,7 +45,6 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
 </div>
 <br>
 
-
 <h3>
   <u>Languages and Tools:</u>
 </h3>
