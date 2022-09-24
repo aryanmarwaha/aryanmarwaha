@@ -75,14 +75,18 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
 </h3>
 <br>
 <div align="justify">
-  <img src="https://user-images.githubusercontent.com/102375260/192111502-55896683-b562-48e4-a502-f1a7e886eeeb.png" height="60" width="">
-  <img src="https://user-images.githubusercontent.com/102375260/192111510-26b93eff-b2c6-4fd6-bbcb-77413564c1a1.png" height="60" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192111502-55896683-b562-48e4-a502-f1a7e886eeeb.png" height="60" width="">&nbsp&nbsp
+  <img src="https://user-images.githubusercontent.com/102375260/192111510-26b93eff-b2c6-4fd6-bbcb-77413564c1a1.png" height="60" width="">&nbsp&nbsp
   <img src="https://user-images.githubusercontent.com/102375260/192111512-9a41692a-bb42-4698-bbf7-04a25053a0fd.png" height="60" width="">
   
   
 </div>
-
-
+<br>
+<h3>
+  <u>Other Stats🧑‍💻:</u>
+</h3>
+<br>
+<img src="https://github-readme-stats.vercel.app/api?username=aryanmarwaha&hide=contribs,prs">
 
 
 <!--
