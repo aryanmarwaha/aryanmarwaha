@@ -50,7 +50,7 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
   <u>Languages and Tools:</u>
 </h4>
 <br>
-<div>
+<div align="center">
   <img src="https://user-images.githubusercontent.com/102375260/192100835-977b2257-8652-421b-8ff7-2687b3fcc174.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104340-d84d4e7e-7da5-4653-8237-86583152ff6f.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104381-22e53115-221a-4e2a-a706-2a2948d1a92a.png" height="60" width="">
