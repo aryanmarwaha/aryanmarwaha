@@ -48,8 +48,9 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
 <h3>
   <u>Communities and Societies 💁‍♂️:</u>
 </h3>
+<br>
 <div align="justify">
-  <img src="https://user-images.githubusercontent.com/102375260/192133887-6de2821f-24e4-44e0-b4e8-4a30ee654bf6.jpg" height="70" width="">
+  <img src="https://user-images.githubusercontent.com/102375260/192134215-75609b1c-20b0-495d-840f-666412e30a94.png" height="70" width="">
 
 </div>
 <br>
