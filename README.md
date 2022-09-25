@@ -55,6 +55,7 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
   </a>
 
 </div>
+<h1></h1>
 <br>
 
 <h3>
@@ -118,7 +119,7 @@ My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm 
 <br>
 <hr>
 <h3>
-  <u>Other GitHub Stats🧑‍💻:</u>
+  <u>My GitHub Stats🧑‍💻:</u>
 </h3>
 <br>
 <div align="center">
