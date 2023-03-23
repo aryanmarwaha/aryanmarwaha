@@ -94,7 +94,7 @@
 	min-height: 30vw;
 	height: auto;
 	width: 90%;
-	background-image: url(Darkslate_texture.jpg);
+	background-image: url(./Assets/Darkslate_texture.jpg);
 	background-size: cover;
 }
 #skills_intro_div_img{
@@ -104,7 +104,7 @@
 	height: 25vw;
 	width: 16vw;
 	margin: 2vw;
-	background-image: url(profilepic3.png);
+	background-image: url(./Assets/profilepic3.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -156,7 +156,7 @@
 	height: 20vw;
 	width: 30vw;
 	border: 1px solid white;
-	background-image: url(Darkslate_texture.jpg);
+	background-image: url(./Assets/Darkslate_texture.jpg);
 }
 #skills_div_post :nth-child(2n){
 	margin-right: 4vw;
@@ -164,7 +164,7 @@
 	height: 20vw;
 	width: 30vw;
 	border: 1px solid white;
-	background-image: url(Darkslate_texture.jpg);
+	background-image: url(./Assets/Darkslate_texture.jpg);
 }*/
 
 /* keyframe :mobile view */
@@ -183,7 +183,7 @@
 			min-height: 30vw;
 			height: auto;
 			width: 90%;
-			background-image: url(Darkslate_texture.jpg);
+			background-image: url(./Assets/Darkslate_texture.jpg);
 			background-size: cover;
 
 		}
@@ -194,7 +194,7 @@
 			height: 25vw;
 			width: 16vw;
 			margin: 2vw;
-			background-image: url(profilepic3.png);
+			background-image: url(./Assets/profilepic3.png);
 			background-size: contain;
 			background-repeat: no-repeat;
 			position: absolute;

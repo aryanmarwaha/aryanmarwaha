@@ -14,7 +14,7 @@
 		overflow: hidden;
 		border-radius: 1.99rem;
 		display: inline-block;
-		background-image: url(bluesky_textile_background.jpg);
+		background-image: url(./Assets/bluesky_textile_background.jpg);
 	}
 	#activity_right_divbar{
 		position: fixed;
@@ -28,7 +28,7 @@
 		overflow: hidden;
 		border-radius: 1.99rem;
 		display: inline-block;
-		background-image: url(bluesky_textile_background.jpg);
+		background-image: url(./Assets/bluesky_textile_background.jpg);
 	}
 	#meltingdakslategrey{
 		width: 100%;
@@ -37,7 +37,7 @@
 	}
 
 	#activity_right_divbar center :nth-child(1){
-		background-image: url(LinkedIn_icon_circle.png);
+		background-image: url(./Assets/LinkedIn_icon_circle.png);
 		background-size: contain;
 		display: block;
 		width: 3.8vw;
@@ -48,7 +48,7 @@
 		margin-top: 0vw;
 	}
 	#activity_right_divbar center :nth-child(2){
-		background-image: url(github_icon.png);
+		background-image: url(./Assets/github_icon.png);
 		background-size: contain;
 		display: block;
 		width: 3.8vw;
@@ -61,7 +61,7 @@
 	}
 	
 	#activity_right_divbar center :nth-child(3){
-		background-image: url(email_icon.png);
+		background-image: url(./Assets/email_icon.png);
 		background-size: contain;
 		display: block;
 		width: 3.8vw;
@@ -73,7 +73,7 @@
 
 	}
 	#activity_right_divbar center :nth-child(4){
-		background-image: url(copy_link_icon.png);
+		background-image: url(./Assets/copy_link_icon.png);
 		background-size: contain;
 		display: block;
 		width: 3.8vw;

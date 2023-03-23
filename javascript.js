@@ -84,7 +84,7 @@ document.getElementById('gopublications_via_mobV').addEventListener('click',togg
 			home.style.display ='block';
 			gohome.style.color= 'black';
 			gohome.style.borderBottom= '3px solid hotpink';
-			body.style.backgroundImage="url('design.png')";
+			body.style.backgroundImage="url('./Assets/design.png')";
 
 			create_strike_fromstart();		
 		};

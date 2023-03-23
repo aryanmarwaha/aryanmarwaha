@@ -18,7 +18,7 @@
 
 	/* Bio ELEMENT */
 	#bio_div{
-		background-image: url(bio_background.png);
+		background-image: url(./Assets/bio_background.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom left;
@@ -127,7 +127,7 @@
 		margin-right: 2vw;
 		height: 70%;
 		width: 17vw;
-		background-image: url(profilepic2.png);
+		background-image: url(./Assets/profilepic2.png);
 		background-size: contain;
 		background-repeat: no-repeat;
 
@@ -329,7 +329,7 @@
 			margin-right: 2vw;
 			height: 70%;
 			width: 17vw;
-			background-image: url(profilepic2.png);
+			background-image: url(./Assets/profilepic2.png);
 			background-size: contain;
 			background-repeat: no-repeat;
 
@@ -543,7 +543,7 @@
 			margin-right: 2vw;
 			height: 70%;
 			width: 17vw;
-			background-image: url(profilepic2.png);
+			background-image: url(./Assets/profilepic2.png);
 			background-size: contain;
 			background-repeat: no-repeat;
 
