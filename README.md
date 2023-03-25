@@ -39,7 +39,7 @@
 <h1></h1>
 <div id="header">
   <h3>Hi there 👋</h3>
-My name is Aryan Marwaha, and I'm from the Indian Punjabi city of Ludhiana. I'm pursuing B.E. in CSE at Chitkara University Punjab right now. I love coding and I'm a huge gadget nerd. 👨🏻‍💻👨🏻‍💻
+My name is Aryan Marwaha, and I'm from the vibrant city of Ludhiana in the Punjab region of India. I'm now pursuing a B.E. in Computer Science Engineering at Chitkara University Punjab, where I'm honing my coding abilities and learning how to create software applications. I'm always fascinated by the newest technology developments and enjoy discovering new devices because I'm a self-described gadget freak. In addition, I'm an astrophile and I'm really interested in the wonders of the cosmos. I aspire to combine my interests and contribute to the field of space technology in the future. 🛰️.
 <br>
   <b>#programming, #scienceandtechnology, and #scienceandenvironment</b>
 </div>
