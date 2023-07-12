@@ -53,7 +53,8 @@ My name is Aryan Marwaha, and I'm from the vibrant city of Ludhiana in the Punja
   <a href="https://github.com/open-source-chandigarh">
     <img src="https://user-images.githubusercontent.com/102375260/192134215-75609b1c-20b0-495d-840f-666412e30a94.png" height="70" width="">
   </a>
-    <img src="https://github.com/aryanmarwaha/aryanmarwaha/assets/102375260/ccedae5b-6265-4523-8e0f-38160ca66fb2" height="70" width="">
+    <img src="https://github.com/aryanmarwaha/aryanmarwaha/assets/102375260/17bb1ef7-d27f-460e-a92c-4e9357e59a1b" height="70" width="">
+
 
 </div>
 <h1></h1>
