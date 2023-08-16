@@ -87,23 +87,11 @@ My name is Aryan Marwaha, and I'm from the vibrant city of Ludhiana in the Punja
   <a href="https://github.com/topics/bootstrap">
     <img src="https://user-images.githubusercontent.com/102375260/192104480-7fb5b4b7-ac66-4e12-8032-0ef2305c2b61.png" height="60" width="">
   </a>
-  <a href="https://github.com/topics/tailwind">
-    <img src="https://user-images.githubusercontent.com/102375260/192104513-a2b29fee-90be-4fb2-879a-9e283407f42f.png" height="60" width="">
-  </a>
-  <a href="https://github.com/topics/nextjs">
-    <img src="https://user-images.githubusercontent.com/102375260/192104543-aff56d14-290a-4805-a908-71efe94e2995.png" height="60" width="">
-  </a>
-  <a href="https://github.com/topics/swift">
-    <img src="https://user-images.githubusercontent.com/102375260/192104568-084783a2-777b-4028-9ae5-229d1001850c.png" height="60" width="">
-  </a>
-  <a href="https://github.com/topics/Kotlin">
-    <img src="https://user-images.githubusercontent.com/102375260/192104592-cbcef5fb-8658-438a-a488-338ebcbe8484.png" height="60" width="">
-  </a>
+ 
   
   
   <img src="https://user-images.githubusercontent.com/102375260/192102650-2ad983e9-2584-4fd2-addd-b1118d25af8f.png" height="60" width="">
   
-  <img src="https://user-images.githubusercontent.com/102375260/192104633-845ac1da-d8de-4278-b6f2-0020c2824a81.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192104659-ab5703e3-ff94-4bfa-9f1d-a4857bf0948a.png" height="60" width="">
   <img src="https://user-images.githubusercontent.com/102375260/192105587-3824d533-ba5b-4afe-820f-bbdbcb8c05ad.png" height="60" width="">
 </div>
